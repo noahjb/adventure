@@ -1,0 +1,27 @@
+{
+  "name": "adventure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -w app.js test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahjb/adventure.git"
+  },
+  "author": "Noah Balsmeyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahjb/adventure/issues"
+  },
+  "homepage": "https://github.com/noahjb/adventure#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "supertest": "^1.2.0"
+  }
+}
